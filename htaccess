@@ -1,0 +1,19 @@
+# Caching headers for favicons and static assets
+<FilesMatch "\.(ico|png|jpg|jpeg|gif|css|js)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+</FilesMatch>
+
+# Ensure correct MIME types for favicons
+AddType image/x-icon .ico
+AddType image/png .png
+
+
+# Security headers
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "no-referrer-when-downgrade"
+Header always set Feature-Policy "geolocation 'self'; midi 'none'; sync-xhr 'self'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'self'; vibrate 'none'; fullscreen 'self'; payment 'none';"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; child-src 'self'; frame-src 'none'; worker-src 'self'; form-action 'self'; upgrade-insecure-requests;"
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"

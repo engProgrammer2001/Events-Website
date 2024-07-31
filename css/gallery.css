@@ -1,0 +1,125 @@
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	/* width: 100%; */
+	-ms-touch-action: pan-y;
+  
+}
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+  
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-item img{
+    /* width: 100%; */
+    padding:7px!important;
+    background-color:#f6f5ff;
+		margin-left:0px!important;
+    border-radius:15px;
+}
+.selfclass .owl-item img{
+  width: 45px;
+}
+.owl-carousel .allitem {
+  padding: 25px;
+	border-radius:0px;
+}
+.owl-carousel .owl-item{
+	float: left;
+	border-radius:5px;
+  border:1px solid rgba(87,59,255,0.21);
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 50);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+.user-blog {
+    background: #0000;
+    padding: 0px 0px 0px;
+}
+
+div#owl-demo1 .item {
+    padding: 0 5px;
+}
+.blog-allof {
+  background: #fff;
+  border-radius: 10px;
+  margin-left:30px!important;
+}
+
+.discretion-blog {
+    padding: 0px;
+	align-items:left;
+}
+
+.discretion-blog p {
+   font-size: 16px;
+   color:#595665;
+	 padding-bottom:15px !important;
+	 margin-top:0px;
+   line-height: 26px;
+   font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.discretion-blog h3 {
+  color: #1F2D3D;
+  font-size: 20px;
+  font-weight: 700;
+	margin-top:0px;
+	margin-bottom:10px;
+  line-height: 26px;
+  font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
+  margin-top: 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.et_pb_module.et_pb_text_align_center {
+    text-align: left;
+}
+
+
+
+
+.user-blog .owl-theme .owl-controls .owl-page span {
+    width: 17px;
+    height: 17px;
+    background: #454343;
+    opacity: 1;
+}
+.user-blog .owl-theme .owl-controls .owl-page.active span, .user-blog .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #82b53f;
+}

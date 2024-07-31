@@ -1,0 +1,2182 @@
+:root {
+  --primary: var #cea887;
+  --secondry: var#0f259c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--black-color);
+  font-weight: normal;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------- Heading Design Image CSS ---------------*/
+.heading-image {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  width: 160px;
+}
+/*---------------- Heading Design Image CSS ---------------*/
+
+/*-------------------- Start Navbar CSS -------------------*/
+.wraper {
+  position: relative;
+}
+
+.navbar {
+  margin-top: 20px;
+  border-radius: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+.ph_wh_in {
+  display: none;
+}
+
+.scrolled.navbar {
+  background-image: url("../img/mandara-img/nav-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 0px;
+  border-radius: none !important;
+  margin-right: 50px;
+  margin-left: 50px;
+  transition: 0.1s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #d1af94;
+  margin: 40px 10px;
+  width: 100px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.navbar-nav .fa {
+  margin-right: 4px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 40px 10px;
+  font-size: 19px;
+  text-align: center;
+  width: 100px;
+  background-image: url("../img/mandara-img/menu-img.png");
+}
+
+.navbar-nav .nav-item .menu-down-icon {
+  max-width: 10px;
+}
+
+.img-brand-desktop {
+  width: 110px;
+  margin-top: 10px;
+}
+
+.img-brand-phone-view {
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  font-family: "Lora", serif;
+}
+
+.dropdown-menu {
+  background-image: url("../img/laxmi\ ji\ jpg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-top: 5px solid #0f259c;
+  border-bottom: 5px solid #0f259c;
+  margin-top: 2px;
+  font-size: 16px;
+  min-width: 12rem;
+  border-radius: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+  border-bottom: 2px solid dotted #0f259c !important;
+  color: #fff;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0f259c;
+  color: #d1af94;
+}
+
+.dropdown-menu .dropdown-item img {
+  width: 18px;
+  margin-right: 10px;
+  opacity: 0;
+  display: none;
+}
+
+.dropdown-menu .dropdown-item:hover img {
+  width: 18px;
+  margin-right: 10px;
+  opacity: 1;
+  display: block;
+  display: inline;
+}
+/*----------------------------- End Navbar CSS  ---------------------------*/
+
+/*------------------------ Start Welcome CSS-----------------------*/
+#about {
+  background-image: url("../img/w2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Lobster";
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.welcome-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.welcome-content h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #0f259c;
+  font-family: "Playball" !important;
+  font-weight: 800;
+}
+
+.welcome-content p span {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 23px !important;
+  color: #86583d;
+  text-transform: uppercase;
+  font-family: "Redressed-Regular";
+}
+
+.welcome-content p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+/* ----------------------- End Welcome CSS ---------------------- */
+
+/* ----------------------- Start Counter_area CSS ----------------- */
+.counter_area_2 {
+  display: block;
+  position: relative;
+  background: #0f259c;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.counter_area_2 {
+  z-index: -99;
+}
+
+.counter_area_2 .count-con {
+  display: block;
+  position: relative;
+  margin-left: -25px;
+  border: 10px solid #cea887;
+  border-left: none;
+  padding: 119px 55px 100px 50px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-border-radius: 0 230px 230px 0;
+  -moz-border-radius: 0 230px 230px 0;
+  -ms-border-radius: 0 230px 230px 0;
+  border-radius: 0 230px 230px 0;
+}
+
+.counter_area_2 .count-con h2 {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  color: #cea887;
+  margin: 0 0 5px;
+  font-size: 35px;
+}
+
+.counter_area_2 .count-number ul li:last-child {
+  padding-right: 0;
+}
+
+.counter_area_2 .count-con p {
+  margin: 0;
+  color: #cea887;
+  font-size: 15px;
+  text-align: center;
+}
+
+.counter_area_2 .count-back {
+  color: #d1af94;
+  text-align: justify;
+  margin-top: 120px;
+  margin-left: 90px;
+  margin-bottom: 115px;
+  font-size: 27px;
+}
+
+.counter_area_2 .count-back p {
+  font-family: "Quicksand" !important;
+}
+
+.counter_area_2 span {
+  color: #c21d17;
+}
+/* ----------------------------- End Counter_area CSS -----------------------  */
+
+/*---------------------------- Start About Us CSS ------------------------- */
+.about-heading {
+  text-align: center;
+}
+
+.about-heading .main-head {
+  color: #0f259c;
+  font-weight: 900;
+  font-size: 55px;
+  font-family: "Playball", cursive;
+  text-align: center;
+  /*margin-top: 30px;*/
+}
+
+.about-heading .about-para {
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+  font-family: "EB Garamond", serif !important;
+  font-style: italic;
+}
+
+/*------------------- Page About Us CSS -------------- */
+/* About Us  */
+#about-banner {
+  background-image: url("../img/pic\ 20.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#gallery-banner {
+  background-image: url("https://images.pexels.com/photos/989917/pexels-photo-989917.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.all_img_bn {
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+.all_img_bn h3 {
+  color: white;
+  font-size: 100px;
+  font-family: "Alex Brush", cursive;
+}
+
+.about-head {
+  color: #e8505b;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.ab_head_ti {
+  padding-top: 18px;
+  margin-bottom: 8px;
+}
+
+/*  End About Us  */
+
+/*------------------------------- End About Us CSS ------------------------- */
+
+/*---------------------------- Start Destination Wedding CSS ------------------------- */
+#destination-wed {
+  text-align: center;
+}
+
+.destination-heading .main-head {
+  color: #0f259c;
+  font-weight: 1000;
+  font-size: 55px;
+  font-family: "Alex Brush", cursive;
+}
+
+.destination-heading {
+  margin-top: 33px;
+  margin-bottom: -170px;
+}
+
+#destination-wed .destination-para {
+  margin-top: 30px;
+}
+/*---------------------------- End Destination Wedding CSS ------------------------- */
+
+/*---------------------------- Start Gallery CSS ------------------------- */
+
+#gallery {
+  /* background-image: url("../img/mandara-img/galler-bg.jpg");  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-heading .main-head {
+  color: #0f259c;
+  font-weight: 900;
+  font-size: 65px;
+  font-family: "Playball", cursive;
+  margin-top: 20px;
+}
+
+.banner {
+  position: relative;
+  padding: 11px 0 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dg-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.dg-wrapper {
+  width: 320px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.dg-wrapper a {
+  width: 100%;
+  height: 250px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dg-wrapper a:first-child {
+  z-index: 2;
+}
+
+.dg-wrapper a img {
+  display: block;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 350px;
+  background: #fff;
+}
+
+.dg-wrapper a.dg-transition {
+  transition: all 0.5s ease-in-out;
+}
+
+.dg-wrapper a.dg-transition-fast {
+  transition: all 0.2s ease-in-out;
+}
+
+.dg-container nav {
+  display: none;
+}
+
+.dg-container nav span:hover {
+  opacity: 1;
+}
+
+.dg-container nav span.dg-next {
+  background-position: top right;
+  margin-left: 10px;
+}
+
+.dg-container #lightButton2 {
+  bottom: 20px;
+}
+
+.dg-container .button {
+  position: relative;
+  z-index: 5;
+}
+
+.dg-container .button li {
+  cursor: pointer;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dg-container .button .light {
+  background: #01bdff;
+}
+
+/*--------------- Social Events Page Gallery -------------*/
+#social-events {
+  background-image: url("../img/gallery-img-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.about-heading .bg-vdo-content {
+  color: #000000 !important;
+}
+
+.soical-head ul li {
+  list-style: none;
+}
+
+.gallery-span {
+  color: #000000;
+}
+
+.gallery-img img {
+  height: 270px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+
+.gallery-bg {
+  background-color: #f9f9f9;
+}
+
+#container {
+  max-width: 850px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+/*
+  
+  ######################################
+    MAIN SLIDER VIEWING AREA SETUP
+  ######################################
+  
+  */
+
+.gallery {
+  background: #cba686;
+  padding: 10px;
+}
+
+.main-slides {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-slides img {
+  width: 100%;
+  height: 450px;
+  transition: all 0.5s ease-out 0s;
+}
+
+.main-slides img:hover {
+  transform: scale(1.1);
+}
+
+.main-slides > .gallery-slide {
+  display: none;
+}
+
+.main-slides > .gallery-slide:nth-child(1) {
+  display: block;
+}
+
+/*
+  
+  ######################################
+    button of slidder controller
+  ######################################
+  
+  */
+
+.slider-controller-button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid#cba686;
+  font-size: 17px;
+  color: white;
+  padding: 12px;
+  display: none;
+  cursor: pointer;
+}
+
+.previous-slide-button {
+  left: 15px;
+}
+
+.next-slide-button {
+  right: 15px;
+}
+
+/*
+  
+  ######################################
+    uppper slider counter
+  ######################################
+  
+  */
+
+.slides-counter {
+  position: absolute;
+  font-family: "Saira Semi Condensed", sans-serif;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f244e;
+}
+
+/*
+  
+  ######################################
+    images and thumbnail
+  ######################################
+  
+  */
+
+.thumbnail-slides {
+  background-color: rgb(171 107 56);
+  margin-top: 8px;
+  padding: 8px;
+  text-align: left;
+}
+
+.thumbnail-slides > img {
+  cursor: pointer;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 3px;
+  transition: all 0.5s ease-out 0s;
+}
+
+.thumbnail-slides > img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/*------------- Corporate Events Gallery Page ---------------- */
+#corporate-events {
+  background-image: url("../img/corporate-events-bg-img.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.content_vd_ovr .corporate-para {
+  color: #000000 !important;
+}
+
+.corporate-head ul li {
+  list-style: none;
+}
+
+@media all and (max-width: 767px) {
+  .ph_wh_in {
+    display: inline-block !important;
+  }
+
+  .desk_wh_in {
+    display: none !important;
+  }
+
+  .corporate-head {
+    margin-top: 150px;
+  }
+
+  .about-heading .main-head {
+    margin-top: 9px;
+  }
+
+  .phone-head {
+    text-align: center;
+    margin-top: -185px !important;
+  }
+}
+/*------------------------------ End Gallery CSS ---------------------------- */
+
+/*------------------------------ Start Service CSS -----------------------------*/
+.service-heading {
+  text-align: center;
+}
+
+.service-heading .main-head {
+  color: #0f259c;
+  font-weight: 900;
+  font-size: 68px;
+  font-family: "Playball", cursive;
+  text-align: center;
+}
+
+.service-heading .about-para {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+.img-box-main {
+  position: relative;
+  width: 100%;
+  transition: 1s;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+.img-box-main img {
+  width: 100%;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-box-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(21, 29, 72, 0.9);
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(0);
+  border-radius: 20px;
+}
+
+.photo-head {
+  font-weight: 900;
+  font-size: -webkit-xxx-large;
+}
+
+.img-box-main:hover .img-box-overlay {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.anchor-tag {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  transition: 1.5s;
+  transform: scale(0);
+}
+
+.anchor-tag a {
+  background-color: #ffffff;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 100%;
+  transition: 1.5;
+  font-size: 20px;
+  color: #000;
+  margin: 6px;
+}
+
+.owl-prev {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  left: 0;
+  position: absolute;
+  top: 40%;
+  border-radius: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  transition: 0.4s;
+}
+
+.owl-next {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  right: 0;
+  position: absolute;
+  top: 40%;
+  border-radius: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  transition: 0.4s;
+}
+
+.img-box-main:hover .owl-prev {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  left: 0;
+  position: absolute;
+  top: 40%;
+  border-radius: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.owl-carousel .owl-prev {
+  opacity: 0;
+}
+
+.owl-carousel:hover .owl-prev {
+  opacity: 1;
+}
+
+.owl-carousel .owl-next {
+  opacity: 0;
+}
+
+.owl-carousel:hover .owl-next {
+  opacity: 1;
+}
+
+.owl-carousel .img-heading {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.owl-carousel .img-heading h5 {
+  font-size: 12px;
+  background-color: #0f259c;
+  color: #cea887;
+  padding: 18px 10px 18px 10px;
+  border-radius: 40px 0px 40px 0px;
+  box-shadow: 1px 0px 4px 1px #000;
+  text-align: center;
+  /* padding-bottom: 15px; */
+  font-weight: 700;
+}
+
+.owl-carousel .img-heading h5:hover {
+  font-size: 12px;
+  background-color: #cea887;
+  color: #0f259c;
+  padding-top: 18px;
+  border-radius: 40px 0px 40px 0px;
+  box-shadow: 1px 0px 4px 1px #000;
+  text-align: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.anchor-tag a:hover {
+  background-color: #cea887;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 100%;
+  transition: 1.5;
+  font-size: 20px;
+  color: #0f259c;
+}
+
+.img-box-main:hover .anchor-tag {
+  transform: scale(0.9);
+  transition: 1.5s;
+}
+
+.btn-info {
+  background-color: #e8505b !important;
+  border-color: #ffffff !important;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255, 255, 255, 0.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+
+/*---------------- Venu Booking Page Services---------- */
+.service-font-head {
+  font-family: "Fraunces", serif !important;
+}
+
+#venu-booking {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ed5a9281625e169a450b208/1591587969615-49A9E3YL3F5Z3DDOVOBF/Corporate+Pixel+-+Corporate+%26+Events+Photography");
+  background-size: cover;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.content_vd_ovr .service-font-head {
+  color: #8883f1;
+}
+
+.gif-vdo {
+  background-image: url("https://i.giphy.com/d5PPYjcb3caPTHM3hv.webp");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100% !important;
+}
+
+.gif-vdo2 {
+  background-image: url("https://i.giphy.com/d5PPYjcb3caPTHM3hv.webp");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100% !important;
+}
+
+.gif-vdo3 {
+  background-image: url("https://i.giphy.com/d5PPYjcb3caPTHM3hv.webp");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100% !important;
+}
+
+.overlay-gif {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media all and (max-width: 767px) {
+  .phone-view-margin {
+    /*margin-top: 150px;*/
+  }
+}
+
+/*--------------------- Design & Concepts for Events Page Services--------------------- */
+#design-concepts-for-events {
+  background-image: url("../img/design-concepts-for-events.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+@media all and (max-width: 767px) {
+  .phone-view-margin .content-size {
+    font-size: 38px;
+  }
+  #about-banner {
+    background-image: url("https://images.pexels.com/photos/1114425/pexels-photo-1114425.jpeg?auto=compress&cs=tinysrgb&w=800");
+    background-size: cover;
+    width: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 400px;
+  }
+  #venu-booking {
+    background-image: url("https://images.pexels.com/photos/6405798/pexels-photo-6405798.jpeg?auto=compress&cs=tinysrgb&w=800");
+    background-size: cover;
+    width: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 500px;
+  }
+}
+
+/*---------------- Events Planning Management Page Services---------- */
+#events-planning-management {
+  background-image: url("../img/events-planning-management.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/*------------------------ Decor Production & Execution Service Page ---------------------- */
+#decor-production-execution {
+  background-image: url("../img/decor-production-execution.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/*-------------------- Event Entertainment Artist Service Page -------------------- */
+#events-entertainment {
+  background-image: url("../img/events-entertainment.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/*--------------- Corporate Companies Branding & Production Launch Events Service Page --------------- */
+#corporate-companies {
+  background-image: url("../img/pic\ 41.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/*----------------------- Photography & Videography Service Page ------------- */
+#photography-videography {
+  background-image: url("../img/pic\ 7.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/*-------------------------- Conceptual Bride & Groom Entries Service Page ----------------------- */
+#concept-bride-groom {
+  background-image: url("https://images.pexels.com/photos/17315417/pexels-photo-17315417/free-photo-of-a-wedding-venue-decorated-with-white-flowers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/*----------------- Conceptual Varmala Exchange Ceremony Service Page ----------------- */
+#conceptual-varmala {
+  background-image: url("../img/conceptual-varmala.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/*-------------------- Logistics & Hospitality Service Page ----------------------- */
+#logistics-hospitality {
+  background-image: url("../img/logistics-hospitality.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+/*------------------------------ End Service CSS -----------------------------*/
+
+/*--------------------- Destination Luxury Wedding Event Page ------------------------- */
+#destination-luxury-wedding {
+  background-image: url("../img/destination-luxury-wedding.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#gallery .benefitlist {
+  text-align: justify;
+}
+
+#gallery .destination-wedd {
+  text-align: center;
+}
+
+/*----------------------- Events Decor & Management Eevent Page------------------------------ */
+#event-decor-management {
+  background-image: url("../img/event-decor-management.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#gallery .benefitlist {
+  text-align: justify;
+}
+
+#gallery .decor-wedd {
+  text-align: center;
+}
+
+#slidy-container {
+  width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/*-------------------- Corporates Events Page ------------------- */
+#corporates-events {
+  background-image: url("../img/corporates-wedd.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#gallery .benefitlist {
+  text-align: justify;
+}
+
+#gallery .listtext {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 38px;
+}
+
+#gallery .corporates-wedd {
+  text-align: center;
+}
+/*-------------------------- Start Testimonial CSS ----------------------------- */
+.testimonial-heading {
+  text-align: center;
+}
+
+.testimonial-heading .main-head {
+  color: #0f259c;
+  font-weight: 900;
+  font-size: 68px;
+  /* font-family: 'Alex Brush', cursive; */
+  font-family: "Playball", cursive;
+
+  text-align: center;
+}
+
+.testimonial-heading .about-para {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+#demo {
+  background: linear-gradient(112deg, #cea887 50%, #0f259c 50%);
+  max-width: 900px;
+  margin: auto;
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 2rem 3rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+}
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.testi-icon-left {
+  background-color: #0f259c;
+  padding: 1.4rem;
+}
+
+.testi-icon-right {
+  background-color: #cea887;
+  padding: 1.4rem;
+}
+
+@media (max-width: 767px) {
+  i {
+    padding: 0.8rem;
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
+}
+/*-------------------------- End Testimonial CSS ----------------------------- */
+
+/*- ---------------------- Start Social Icons Section --------------------*/
+.social-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-heading .main-head {
+  color: #0f259c;
+  font-weight: 900;
+  font-size: 68px;
+  /* font-family: 'Alex Brush', cursive; */
+  font-family: "Playball", cursive;
+  text-align: center;
+}
+
+.social-heading .about-para {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.template-demo .button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.template-demo {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.template-demo a {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.template-demo .fa-facebook {
+  background-color: #3b579d;
+}
+
+.template-demo .fa-instagram {
+  background-color: #dc4a38;
+}
+
+.template-demo .fa-youtube {
+  background-color: #e52d27;
+}
+
+.template-demo .fa-whatsapp {
+  background-color: #10c852;
+}
+
+/* @media (max-width:991.98px) {
+        .padding {
+            padding: 1.5rem
+        }
+    } */
+
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 3rem;
+}
+
+.card {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+}
+
+.card .card-body {
+  padding: 0.25rem 2.75rem;
+}
+
+.card .card-title {
+  color: #000000;
+  margin-bottom: 0.625rem;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card .card-description {
+  margin-bottom: 0.875rem;
+  font-weight: 400;
+  color: #76838f;
+}
+
+.btn.btn-social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.template-demo > .btn {
+  margin-right: -5.5rem !important;
+}
+
+.template-demo {
+  margin-top: 0.5rem !important;
+  border-box: none !important;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+  margin: -19px;
+}
+
+.btn-outline-facebook {
+  border: 1px solid #3b579d;
+  color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+  background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-outline-youtube {
+  border: 1px solid #e52d27;
+  color: #e52d27;
+}
+
+.btn-outline-twitter {
+  border: 1px solid #2caae1;
+  color: #2caae1;
+}
+
+.btn-outline-dribbble {
+  border: 1px solid #ea4c89;
+  color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+  border: 1px solid #0177b5;
+  color: #0177b5;
+}
+
+.btn-outline-instagram {
+  border: 1px solid #dc4a38;
+  color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+  background: #2caae1;
+  color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+  background: #0177b5;
+  color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-outline-instagram:hover {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-facebook {
+  background: #3b579d;
+  color: #ffffff;
+}
+
+.btn-youtube {
+  background: #e52d27;
+  color: #ffffff;
+}
+
+.btn-twitter {
+  background: #2caae1;
+  color: #ffffff;
+}
+
+.btn-dribbble {
+  background: #ea4c89;
+  color: #ffffff;
+}
+
+.btn-whatsapp {
+  background: #10c852;
+  color: #ffffff;
+}
+
+.btn-instagram {
+  background: #dc4a38;
+  color: #ffffff;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #2d4278;
+  color: #ffffff;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus {
+  background: #c21d17;
+  color: #ffffff;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: #1b8dbf;
+  color: #ffffff;
+}
+
+.btn-dribbble:hover,
+.btn-dribbble:focus {
+  background: #e51e6b;
+  color: #ffffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+  background: #015682;
+  color: #ffffff;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+  background: #bf3322;
+  color: #ffffff;
+}
+/*- ---------------------- End Social Icons Section --------------------*/
+
+/* ------------------- Start Footer Section ------------------- */
+.footer-section {
+  font-family: italic;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), #0f259c),
+    url("../img/mandara-img/nav-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.unique-color-dark {
+  margin-top: 0 !important;
+}
+
+.footer-logo {
+  width: 176px;
+  margin-top: 28px;
+}
+
+.footer-para {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 19px;
+  word-spacing: -1px;
+  font-weight: 500;
+  font-family: "EB Garamond", serif;
+}
+
+.footer-contect {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  background-color: #071771;
+  padding: 30px;
+}
+
+.footer-copyright span {
+  color: #ffffff !important;
+}
+
+.footer-copyright a {
+  color: #ffffff !important;
+}
+
+.footer-copyright a:hover {
+  color: #0f259c !important;
+}
+
+.footer-contect a {
+  font-size: 18px;
+}
+
+.footer-contect a:hover {
+  color: #cead92;
+}
+
+.footer-contect hr {
+  color: #cead92;
+}
+
+/* .mt-3, .my-3 {
+    margin-top: -2rem !important;
+} */
+
+.footer-social-icon {
+  cursor: pointer;
+}
+
+.font-weight-bold {
+  color: #cead92;
+  font-size: 20px;
+}
+
+/*----------------------------- End Footer Section ------------------------------- */
+
+.btn-info {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 12px 25px;
+  color: #fff;
+  border: 0.5px solid #fff;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  background-color: #e8505b;
+}
+
+.btn-info span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-info:hover span {
+  width: 100%;
+}
+
+.btn-info:hover {
+  color: #000;
+}
+
+.modal_form_div input,
+textarea {
+  margin-bottom: 15px;
+}
+
+.btn-md {
+  color: #fff;
+  background-color: #e8505b;
+  border-color: #e8505b;
+}
+
+.modal-title {
+  color: #757575;
+  font-family: "Lobster";
+}
+
+/*------------------------------ Contact Us  ------------------------*/
+
+#contact-us {
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.media-body {
+  /* background-image: url('../img/b.png'); */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Cormorant Infant";
+}
+
+input[type="submit"] {
+  background-color: #0f259c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+}
+
+input:hover {
+  color: #cba686;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.container-form select {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+.container-form select:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 2px solid #3a3939;
+}
+
+.contact_info {
+  position: relative;
+}
+
+.media {
+  position: absolute;
+}
+
+.media .contact-img p {
+  margin-top: 0;
+  margin-left: 70px;
+}
+.details-text{
+    margin-left: 90px;
+}
+.contact_info .contact-img2 {
+  margin-top: 0 !important;
+  margin-left: 65px !important;
+}
+
+.media .contact-img3 p {
+  margin-top: 0;
+  margin-left: 64px;
+}
+
+.contact_info {
+  /* background: linear-gradient(to right, #282d56 0%, #5c5f7f, #cd9780 100%); */
+  /* border: 1px solid#ffffff; */
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  padding: 40px 0px 40px 0px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  /* box-shadow: 3px 3px 7px 2px #000000; */
+  /* box-shadow: 1px 1px 7px -1px #000000; */
+  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  margin-left: -13px;
+}
+
+/* .contact_info:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+} */
+
+.contact_info a {
+  color: white;
+  font-size: 20px;
+  font-family: "Cormorant Infant";
+}
+.contact_info p a {
+  color: white;
+  font-size: 20px;
+  font-family: "Cormorant Infant";
+}
+
+.contact_info .fa {
+  font-size: 20px;
+  color: white !important;
+  margin-top: 3px;
+}
+
+.contact_info p {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: "Cormorant Infant";
+}
+
+@media (max-width: 767px) {
+  .contact_info p {
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------- Start Media Query -------------------------*/
+@media (max-width: 767px) {
+  /*--------------------- Start Wow Slider Section  ----------------------*/
+
+  #wowslider-container1 {
+    display: table;
+    margin-top: 50px !important;
+    zoom: 1;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    max-height: 1000px;
+    margin: 0px auto 0px;
+    z-index: 90;
+    text-align: left;
+    font-size: 10px;
+    text-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  /*--------------------- End Wow Slider Section  ----------------------*/
+
+  /*---------------- Heading Design Image CSS ---------------*/
+  .heading-image {
+    margin-bottom: 20px;
+    margin-top: -12px;
+    width: 190px;
+  }
+  /*---------------- Heading Design Image CSS ---------------*/
+
+  /*-------------------- Start Navbar CSS -------------------*/
+  .wraper {
+    position: relative;
+  }
+
+  .navbar {
+    background-image: url("../img/mandara-img/nav-bg-4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0px;
+    border-radius: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .scrolled.navbar {
+    background-image: url("../img/mandara-img/nav-bg-4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #d1af94;
+    margin: 40px 10px;
+    width: 100px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .navbar-nav .fa {
+    margin-right: 4px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 40px 10px;
+    font-size: 19px;
+    text-align: center;
+    width: 100px;
+    background-image: url("../img/mandara-img/menu-img.png");
+  }
+
+  .navbar-nav .nav-item .menu-down-icon {
+    max-width: 10px;
+  }
+
+  .img-brand-desktop {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .img-brand-phone-view {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    font-family: "Lora", serif;
+  }
+
+  .dropdown-menu {
+    background-image: url("../img/laxmi\ ji\ jpg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-top: 5px solid #0f259c;
+    border-bottom: 5px solid #0f259c;
+    margin-top: 2px;
+    font-size: 16px;
+    min-width: 12rem;
+    border-radius: 20px;
+  }
+
+  .dropdown-menu .dropdown-item {
+    border-bottom: 2px solid dotted #0f259c !important;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #0f259c;
+    color: #d1af94;
+  }
+
+  .dropdown-menu .dropdown-item img {
+    width: 18px;
+    margin-right: 10px;
+    opacity: 0;
+    display: none;
+  }
+
+  .dropdown-menu .dropdown-item:hover img {
+    width: 18px;
+    margin-right: 10px;
+    opacity: 1;
+    display: block;
+    display: inline;
+  }
+  /*----------------------------- End Navbar CSS  ---------------------------*/
+
+  /*------------------------ Start Welcome CSS-----------------------*/
+  #about {
+    background-image: url("../img/w2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Lobster";
+  }
+
+  .welcome-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .welcome-content h1 {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #0f259c;
+    margin-top: -55px !important;
+  }
+
+  .welcome-content p span {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 23px !important;
+    color: #cea887;
+    text-transform: uppercase;
+  }
+
+  .welcome-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  /* ----------------------- End Welcome CSS ---------------------- */
+
+  ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*---------------------------- Start About Us CSS ------------------------- */
+  .about-heading .main-head {
+    color: #0f259c;
+    font-weight: 900;
+    font-size: 55px;
+    /* font-family: 'Alex Brush', cursive; */
+    font-family: "Playball", cursive;
+  }
+
+  .about-heading .about-para {
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: -1px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .bg-img {
+    margin: auto;
+    padding-top: 33px;
+    text-align: center;
+  }
+
+  .bg-img .heading-image {
+    text-align: center;
+  }
+
+  .about-img {
+    background-image: url("../img/mandara-img/bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*---------------------------- End About Us CSS ------------------------- */
+
+  /*---------------------------- Start Destination Wedding CSS ------------------------- */
+  #destination-wed {
+    text-align: center;
+    margin-top: -150px;
+  }
+
+  .destination-heading .main-head {
+    color: #0f259c;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: "Playball", cursive !important;
+    margin-top: 125px;
+  }
+
+  .destination-heading .about-para {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  /*---------------------------- End Destination Wedding CSS ------------------------- */
+
+  /*---------------------------- Start Gallery CSS ------------------------- */
+  #gallery {
+    text-align: center;
+    margin-top: -130px;
+  }
+
+  .gallery-heading .main-head {
+    color: #0f259c;
+    font-weight: 900;
+    font-size: 55px;
+    font-family: "Playball", cursive;
+    margin-top: 135px;
+  }
+
+  .banner {
+    position: relative;
+    height: 180px;
+    padding: 11px 0 16px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .dg-container {
+    position: relative;
+    width: 100%;
+    height: 350px;
+  }
+
+  .dg-wrapper {
+    width: 320px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+
+  .dg-wrapper a {
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .dg-wrapper a:first-child {
+    z-index: 2;
+  }
+
+  .dg-wrapper a img {
+    display: block;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 350px;
+    background: #fff;
+  }
+
+  .dg-wrapper a.dg-transition {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .dg-wrapper a.dg-transition-fast {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .dg-container nav {
+    display: none;
+  }
+
+  .dg-container nav span:hover {
+    opacity: 1;
+  }
+
+  .dg-container nav span.dg-next {
+    background-position: top right;
+    margin-left: 10px;
+  }
+
+  .dg-container #lightButton2 {
+    bottom: 20px;
+  }
+
+  .dg-container .button {
+    position: relative;
+    z-index: 5;
+  }
+
+  .dg-container .button li {
+    cursor: pointer;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .dg-container .button .light {
+    background: #01bdff;
+  }
+  /*------------------------------ End Gallery CSS ---------------------------- */
+
+  /*------- Start logo --------*/
+  .img-brand-desktop {
+    width: 170px;
+    margin-top: 0px;
+    display: none !important;
+  }
+
+  .img-brand-phone-view {
+    display: block;
+    width: 47px;
+    margin-top: 0px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #d1af94;
+    margin: 0px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .navbar-nav .fa {
+    margin-right: 4px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    font-size: 15px;
+    text-align: center;
+    width: 100px;
+    background-image: url("../img/mandara-img/menu-img.png");
+  }
+  .navbar-nav .nav-item .menu-down-icon {
+    max-width: 10px;
+  }
+}
